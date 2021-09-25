@@ -11,6 +11,7 @@ import {
     RiGithubFill,
 } from "react-icons/ri";
 import { Link } from 'react-router-dom';
+import logo from '../../assets/logo.png';
 
 const NavBar = () => {
     const [expand, updateExpanded] = useState(false);
@@ -27,9 +28,9 @@ const NavBar = () => {
 
     return (
         <Navbar expanded={expand} fixed="top" expand="md" className={navColor ? false : "expanded"}>
-            <Container>
-                <Navbar.Brand href="/home">
-                    <img src={" "} className="logo" alt="brand" />
+             <Container>
+                <Navbar.Brand href="/ryan-port-react">
+                    <img src={logo} className="logo" alt="brand" />
                 </Navbar.Brand>
                 <Navbar.Toggle
                     aria-controls="responsive-navbar-nav"
@@ -44,9 +45,47 @@ const NavBar = () => {
                                 <RiHomeSmile2Line /> Home
                             </Nav.Link>
                         </Nav.Item>
+                        <Nav.Item>
+                            <Nav.Link
+                                as={Link}
+                                to="/about"
+                                onClick={() => updateExpanded(false)}
+                            >
+                                <RiSkull2Fill /> About
+                            </Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                            <Nav.Link
+                                as={Link}
+                                to="/token" 
+                                onClick={() => updateExpanded(false)}
+                            >
+                                <RiCodeBoxFill /> Token
+                            </Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                            <Nav.Link
+                                as={Link}
+                                to="/team"
+                                onClick={() => updateExpanded(false)}
+                            >
+                                <RiVipDiamondLine /> Team
+                            </Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item className="fork-btn">
+                            <Button
+                                href=""
+                                target="_blank"
+                                className="fork-btn-inner"
+                            >
+                                <RiGithubFill style={{ fontSize: "1.5em" }} />
+                            </Button>
+                        </Nav.Item>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
     )
 }
+
+export default NavBar;
