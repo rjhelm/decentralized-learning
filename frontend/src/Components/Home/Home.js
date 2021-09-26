@@ -29,6 +29,7 @@ const Home = () => {
                         </Col>
                     </Row>
                 </Container>
+                <Hero />
             </Container>
         </section>
     )
