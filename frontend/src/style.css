@@ -42,7 +42,8 @@ html {
   
   .logo {
     height: 4.5em;
-    width: 9.5em;
+    width: 8.5em;
+    color: gold;
   }
   
   .nav-link {
@@ -167,7 +168,7 @@ html {
     padding-bottom: 35px;
     padding-top: 30px;
     background-position: top center;
-    background-image: var(--image-gradient), url(../assets/home-bg.jpg);
+    background-image: var(--image-gradient), url(./assets/home-bg.jpg);
   }
   
   .home-header {
@@ -569,7 +570,7 @@ html {
     height: 100%;
     z-index: 999999;
     background-color: rgb(29, 29, 29);
-    background-image: url(../assets/pre.svg);
+    background-image: url(./assets/pre.svg);
     background-repeat: no-repeat;
     background-position: center;
     --imp-text-color: rgba(5, 5, 5, 0.63);

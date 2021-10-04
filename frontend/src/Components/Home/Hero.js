@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Tilt from 'react-parallax-tilt';
 import { AiFillGithub, AiOutlineTwitter, AiFillInstagram, } from 'react-icons/ai';
 import { FaLinkedinIn } from 'react-icons/fa';
-
+import code from '../../assets/code.jpg';
 
 const Hero = () => {
     return (
@@ -15,7 +15,9 @@ const Hero = () => {
                     <h1 style={{ fontSize: "2.6em" }}>
                         This is <span className="gold"> Decentralized Learning </span>
                         <br />
-                        Full-Stack Web Developer
+                        Eco-Friendly blockchain for developers to profit
+                        <br />
+                        while scaling machine learning projects with efficency.
                     </h1>
                     <p className="hero-body">
                         
@@ -37,7 +39,7 @@ const Hero = () => {
                 </Col>
                 <Col md={4} className="avatar">
                     <Tilt>
-                        <img src={" "} className="img-fluid" alt="avatar" />
+                        <img src={code} className="img-fluid" alt="code" />
                     </Tilt>
                 </Col>
             </Row>
@@ -50,7 +52,7 @@ const Hero = () => {
                     <ul className="hero-links">
                         <li className="social-icons">
                             <a
-                                href="https://github.com/rjhelm"
+                                href="https://github.com/Decentralizedlearningblockchain"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="icon-color  hero-social-icons"
@@ -60,7 +62,7 @@ const Hero = () => {
                         </li>
                         <li className="social-icons">
                             <a
-                                href="https://twitter.com/ryanj_dev"
+                                href="https://twitter.com/DLRN_blockchain"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="icon-color  hero-social-icons"
@@ -70,7 +72,7 @@ const Hero = () => {
                         </li>
                         <li className="social-icons">
                             <a
-                                href="https://www.linkedin.com/in/ryjhelm/"
+                                href="https://www.linkedin.com/company/decentralized-learning"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="icon-color  hero-social-icons"
@@ -80,7 +82,7 @@ const Hero = () => {
                         </li>
                         <li className="social-icons">
                             <a
-                                href="https://www.instagram.com/ryan_j_dev/"
+                                href="https://www.instagram.com/decentralizedlearning/"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="icon-color  hero-social-icons"

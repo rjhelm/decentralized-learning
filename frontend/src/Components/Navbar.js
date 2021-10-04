@@ -11,7 +11,7 @@ import {
     RiGithubFill,
 } from "react-icons/ri";
 import { Link } from 'react-router-dom';
-import logo from '../../assets/logo.png';
+import logo from '../assets/logo.png';
 
 const NavBar = () => {
     const [expand, updateExpanded] = useState(false);
