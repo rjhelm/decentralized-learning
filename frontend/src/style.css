@@ -167,7 +167,7 @@ html {
     padding-bottom: 35px;
     padding-top: 30px;
     background-position: top center;
-    background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+    background-image: var(--image-gradient), url(../assets/home-bg.jpg);
   }
   
   .home-header {
@@ -424,7 +424,7 @@ html {
     color: white !important;
   }
   /* Resume Styles */
-  
+/*   
   .resume-section {
     position: relative;
     padding-top: 110px;
@@ -493,7 +493,7 @@ html {
     top: 0;
     background: #fff;
     border: 2px solid gold;
-  }
+  } */
   
   /* .fork-btn {
     font-size: 1.1em;
@@ -569,7 +569,7 @@ html {
     height: 100%;
     z-index: 999999;
     background-color: rgb(29, 29, 29);
-    background-image: url(./Assets/pre.svg);
+    background-image: url(../assets/pre.svg);
     background-repeat: no-repeat;
     background-position: center;
     --imp-text-color: rgba(5, 5, 5, 0.63);
