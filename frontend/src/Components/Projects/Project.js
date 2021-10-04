@@ -52,5 +52,7 @@ const Projects = () => {
                 </Row>
             </Container>
         </Container>
-    )
+    );
 }
+
+export default Projects;
