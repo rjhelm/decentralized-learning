@@ -180,7 +180,7 @@ html {
   }
   
   .heading-name {
-    padding-left: 45px;
+    /* padding-left: 45px; */
     font-size: 2.4em;
   }
   
@@ -207,8 +207,9 @@ html {
   
   .hero-section {
     position: relative !important;
-    background-position: top center;
+    background-position: center;
     /* background-color: #181a27; */
+    justify-content: center;
     padding-top: 70px;
     padding-bottom: 70px;
   }
@@ -216,19 +217,19 @@ html {
   .hero-about {
     text-align: center;
     color: white !important;
-    padding-top: 95px;
-    padding-bottom: 20px;
+    padding-top: 60px;
+    /* padding-bottom: 20px; */
   }
   
   .hero-body {
-    text-align: left;
-    font-size: 1.2em;
+    text-align: center;
+    font-size: 1.5em;
     padding-top: 50px;
   }
   
   .hero-social {
     color: white !important;
-    padding-top: 25px;
+    padding-top: 35px;
     text-align: center;
   }
   
@@ -242,7 +243,7 @@ html {
     display: inline-block;
     position: relative;
     padding-inline-start: 0;
-    padding-top: 15px;
+    padding-top: 10px;
   }
   
   .hero-social-icons {

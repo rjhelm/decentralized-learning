@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 import {
     RiCodeBoxFill,
     RiHomeSmile2Line,
-    RiMindMap,
+    RiAliensFill,
     RiVipDiamondLine,
     RiMailSendFill,
 } from "react-icons/ri";
@@ -51,7 +51,7 @@ const NavBar = () => {
                                 to="/about"
                                 onClick={() => updateExpanded(false)}
                             >
-                                <RiMindMap /> About
+                                <RiAliensFill/> About
                             </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
