@@ -167,7 +167,7 @@ html {
     padding-bottom: 35px;
     padding-top: 30px;
     background-position: top center;
-    background-image: var(--image-gradient), url(./Assets/home-bg.png);
+    background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   }
   
   .home-header {
