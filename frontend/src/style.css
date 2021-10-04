@@ -3,14 +3,14 @@
 html {
     --section-background-color: linear-gradient(
       to bottom left,
-      rgba(17, 16, 16, 0.582),
-      rgba(12, 8, 24, 0.904)
+      rgba(233, 225, 225, 0.582),
+      rgba(97, 95, 95, 0.904)
     );
   
     --image-gradient: linear-gradient(
       to bottom left,
-      rgba(17, 16, 16, 0.678),
-      rgba(12, 10, 22, 0.863)
+      rgba(151, 148, 148, 0.678),
+      rgba(119, 119, 119, 0.863)
     );
   
     --important: gold;
@@ -41,9 +41,8 @@ html {
   }
   
   .logo {
-    height: 4.5em;
-    width: 8.5em;
-    color: gold;
+    height: 5.5em;
+    width: 7.5em;
   }
   
   .nav-link {
