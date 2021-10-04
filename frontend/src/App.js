@@ -21,7 +21,7 @@ function App() {
   }, []);
 
   return (
-    <Router basename='/ryan-port-react'>
+    <Router basename='/decentralized-learning'>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
