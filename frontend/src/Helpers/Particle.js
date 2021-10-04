@@ -35,7 +35,7 @@ const Particle = () => {
                 events: {
                     onClick: {
                         enable: true,
-                        mode: push,
+                        mode: "push",
                     },
                 },
                 modes: {
