@@ -6,9 +6,9 @@ import Button from 'react-bootstrap/Button';
 import {
     RiCodeBoxFill,
     RiHomeSmile2Line,
-    RiSkull2Fill,
+    RiMindMap,
     RiVipDiamondLine,
-    RiGithubFill,
+    RiMailSendFill,
 } from "react-icons/ri";
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
@@ -51,25 +51,25 @@ const NavBar = () => {
                                 to="/about"
                                 onClick={() => updateExpanded(false)}
                             >
-                                <RiSkull2Fill /> About
+                                <RiMindMap /> About
                             </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
                             <Nav.Link
                                 as={Link}
-                                to="/token" 
+                                to="/projects" 
                                 onClick={() => updateExpanded(false)}
                             >
-                                <RiCodeBoxFill /> Token
+                                <RiCodeBoxFill /> Projects
                             </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
                             <Nav.Link
                                 as={Link}
-                                to="/team"
+                                to="/token"
                                 onClick={() => updateExpanded(false)}
                             >
-                                <RiVipDiamondLine /> Team
+                                <RiVipDiamondLine /> Token
                             </Nav.Link>
                         </Nav.Item>
                         <Nav.Item className="fork-btn">
@@ -78,7 +78,7 @@ const NavBar = () => {
                                 target="_blank"
                                 className="fork-btn-inner"
                             >
-                                <RiGithubFill style={{ fontSize: "1.5em" }} />
+                                <RiMailSendFill style={{ fontSize: "1.5em" }} />
                             </Button>
                         </Nav.Item>
                     </Nav>
