@@ -46,7 +46,7 @@ const Hero = () => {
                     </Tilt> */}
                     <p className="hero-body">
 
-                        Our blockchain will be governed by 2 Coins. The first coin is backed by all the tokens in the blockchain combined. These coin can only be obtained by loyal miners. Our second governing coin will be a stable coin pegged at the U.S. dollar's price. A machine learning algorithm watches over the entire blockchain. The algorithm will insure that mine-able blocks are distributed with optimal speed while making sure of miner equality. Miners do not get to choose what token they mine. instead miners will be payed with the token backing that project. Miners will be able to exchange those tokens into our sable coins, but are strongly encouraged to hold those tokens for when the project blows up.
+                        Our blockchain will be governed by 2 Coins. The first coin is backed by all the tokens in the blockchain combined. These coin can only be obtained by loyal miners. Our second governing coin will be a stable coin pegged at the U.S. dollar's price. A machine learning algorithm watches over the entire blockchain. The algorithm will insure that mine-able blocks are distributed with optimal speed while making sure of miner equality. Miners do not get to choose what token they mine. instead miners will be payed with the token backing that project. Miners will be able to exchange those tokens into our stable coins, but are strongly encouraged to hold those tokens for when the project blows up.
                     </p>
                 </Col>
             </Row>

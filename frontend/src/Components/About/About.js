@@ -11,6 +11,9 @@ const About = () => {
                         <h1 style={{ fontSize: '2.1em', paddingBottom: '20px' }}>
                             Ryan <strong className="gold">Helm</strong>
                         </h1>
+                        <h1 style={{ fontSize: '2.1em', paddingBottom: '20px' }}>
+                            TJ <strong className="gold">Finley</strong>
+                        </h1>
                         <AboutCard />
                     </Col>
                     <Col md={5} style={{ paddingTop: '100px', paddingBottom: '50px' }} className="about-img">
