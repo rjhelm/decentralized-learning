@@ -25,20 +25,20 @@ const AboutCard = () => {
                     <ul style={{ paddingTop: "25px" }}>
                     <h1>Token Standards</h1> 
                         <li className="about-hobby">
-                            <ImPointRight /> <span className="gold" style={{ fontSize: "1.5em" }}>BLCKMNY-32</span>
+                            <ImPointRight /> <span className="gold" style={{ fontSize: "1.5em", textDecoration: "underline" }}>BLCKMNY-32</span>
                             <br />
                             <p style={{ color: "white", paddingLeft: "20px" }}>
                             The BLCKMNY-32 token will be for creating cryptocurrency as a way for aspiring developers to crowd source funding to scale their projects. The creator will be able to build value from the ground up. As well the ability to back the value of the token with cross-chain tokens, or pegged to follow a real-world assets price such as stocks, metals, gems, fiat currency’s, ext.
                             </p>
                         </li>
                         <li className="about-hobby">
-                            <ImPointRight /> <span className="gold" style={{ fontSize: "1.5em" }}>BLCKDP-1137</span><br />
+                            <ImPointRight /> <span className="gold" style={{ fontSize: "1.5em", textDecoration: "underline" }}>BLCKDP-1137</span><br />
                             <p style={{ color: "white", paddingLeft: "20px" }}>
                             Before creating a new BLCKDP-1137 token, users must create a BLCKMNY-32 to back their project. Users can create this token to start a new project on the blockchain. A new block is created for every calculation needed to be preformed. In order for the blocks to get mined, a user must contribute a small amount of their BLCKMNY-32 token to pay miners for their contribution. BLCKDP-1137 tokens are not tradable, but when a developer completes their project you're able sell or except offers to buy ownership to that project.
                             </p>
                         </li>
                         <li className="about-hobby">
-                            <ImPointRight /> <span className="gold" style={{ fontSize: "1.5em" }}>BLCKNFT-443</span><br />
+                            <ImPointRight /> <span className="gold" style={{ fontSize: "1.5em", textDecoration: "underline" }}>BLCKNFT-443</span><br />
                             <p style={{ color: "white", paddingLeft: "20px" }}>
                             The BLCKNFT-443 token standard gives all our users a simple way to create non-fungible tokens based around their project. After a user has created & signed their NFT it will get deployed into the network for a miner to validate the signature to the blockchain. Theirs no fee for creating, and deploying new NFTs, but the miner that validates the signature will get one copy of the NFT as their payment.
                             </p>
