@@ -32,6 +32,9 @@ const NavBar = () => {
                 <Navbar.Brand href="/ryan-port-react">
                     <img src={logo} className="logo" alt="brand" />
                 </Navbar.Brand>
+                <Navbar.Text>
+                    <h1 style={{ justifyContent: "center", color: "gold" }}>Decentralized Learning || DLNR</h1>
+                </Navbar.Text>
                 <Navbar.Toggle
                     aria-controls="responsive-navbar-nav"
                     onClick={() => {
