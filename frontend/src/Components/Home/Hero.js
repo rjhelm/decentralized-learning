@@ -2,10 +2,10 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Tilt from 'react-parallax-tilt';
+// import Tilt from 'react-parallax-tilt';
 import { AiFillGithub, AiOutlineTwitter, AiFillInstagram, } from 'react-icons/ai';
 import { FaLinkedinIn } from 'react-icons/fa';
-import code from '../../assets/code.jpg';
+// import code from '../../assets/code.jpg';
 
 const Hero = () => {
     return (
