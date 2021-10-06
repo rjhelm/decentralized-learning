@@ -33,7 +33,7 @@ const NavBar = () => {
                     <img src={logo} className="logo" alt="brand" />
                 </Navbar.Brand>
                 <Navbar.Text>
-                    <h1 style={{ justifyContent: "center", color: "cyan" }}>Decentralized Learning || DLNR</h1>
+                    <h1 style={{ color: "cyan" }}>Decentralized Learning || DLNR</h1>
                 </Navbar.Text>
                 <Navbar.Toggle
                     aria-controls="responsive-navbar-nav"

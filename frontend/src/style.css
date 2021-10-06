@@ -14,6 +14,7 @@ html {
     );
   
     --important: cyan;
+    
   }
   
   .gold {
@@ -23,10 +24,10 @@ html {
   /* Navbar Styles */
   
   .sticky {
-    /* backdrop-filter: blur(15px); */
-    background-color: darkgrey;
+    backdrop-filter: blur(15px);
+    background-color: rgb(248, 232, 232);
     transition: all 0.3s ease-out 0s;
-    box-shadow: 0px 10px 10px 0px rgb(228, 228, 228) !important;
+    box-shadow: 0px 10px 10px 0px rgb(168, 159, 159) !important;
   }
   
   .navbar {
@@ -34,6 +35,7 @@ html {
     position: fixed;
     font-size: 1.2rem;
     transition: all 0.3s ease-out 0s;
+    justify-content: space-evenly;
     
   }
   
@@ -209,10 +211,11 @@ html {
   .hero-section {
     position: relative !important;
     background-position: center;
-    /* background-color: #181a27; */
+    background-color: #181a27;
     justify-content: center;
     padding-top: 70px;
     padding-bottom: 70px;
+    border: #0301055e;
   }
   
   .hero-about {
@@ -316,6 +319,7 @@ html {
   /* About Styles */
   
   .about-section {
+    background-image: var(--image-gradient), url(./assets/home-bg.jpg);
     color: white;
     position: relative;
     background-color: rgba(19, 16, 16, 0.726);
@@ -368,6 +372,7 @@ html {
   /* Project Styles */
   
   .project-section {
+    
     position: relative;
     padding-top: 140px;
     padding-bottom: 20px;

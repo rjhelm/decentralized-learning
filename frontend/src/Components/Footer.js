@@ -7,7 +7,7 @@ import { FaLinkedinIn } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <Container fluid className="footer">
+        <Container fixed="bottom" fluid className="footer">
             <Row>
                 <Col md="4" clasName="footer-copywright">
                     <h3>created by ryanj_dev</h3>
