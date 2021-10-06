@@ -3,17 +3,17 @@
 html {
     --section-background-color: linear-gradient(
       to bottom left,
-      rgba(233, 225, 225, 0.582),
-      rgba(97, 95, 95, 0.904)
+      rgba(0, 0, 0, 0.582),
+      rgba(22, 20, 20, 0.904)
     );
   
     --image-gradient: linear-gradient(
       to bottom left,
-      rgba(151, 148, 148, 0.678),
-      rgba(119, 119, 119, 0.863)
+      rgba(44, 43, 43, 0.678),
+      rgba(36, 28, 28, 0.863)
     );
   
-    --important: gold;
+    --important: cyan;
   }
   
   .gold {
@@ -24,7 +24,7 @@ html {
   
   .sticky {
     /* backdrop-filter: blur(15px); */
-    background-color: black;
+    background-color: darkgrey;
     transition: all 0.3s ease-out 0s;
     box-shadow: 0px 10px 10px 0px rgb(228, 228, 228) !important;
   }
@@ -38,7 +38,7 @@ html {
   }
   
   .navbar-brand {
-    color: gold;
+    color: cyan;
   }
   
   .logo {
@@ -51,7 +51,7 @@ html {
   }
   
   .navbar-nav .nav-link {
-    color: gold !important;
+    color: cyan !important;
     padding-right: 1rem;
     padding-left: 1rem;
   }
@@ -101,7 +101,7 @@ html {
     width: 27px;
     margin-top: 5px;
     margin-bottom: 5px;
-    background-color: gold;
+    background-color: cyan;
     transform: rotate(0deg);
   }
   
@@ -186,7 +186,7 @@ html {
   }
   
   .main-name {
-    color: gold !important;
+    color: cyan !important;
   }
   
   .home-content {
@@ -198,7 +198,7 @@ html {
   .Typewriter__wrapper {
     font-size: 2.2em;
     font-weight: 600;
-    color: gold !important;
+    color: cyan !important;
   }
   
   .Typewriter__cursor {
@@ -252,7 +252,7 @@ html {
     display: inline-block;
     text-align: center;
     font-size: 1.7em;
-    color: gold !important;
+    color: cyan !important;
     background: rgb(102, 91, 91) !important;
     line-height: 2em;
     border-radius: 50%;
@@ -282,9 +282,9 @@ html {
   }
   
   .hero-social-icons:hover {
-    text-shadow: 0 0 2px gold;
+    text-shadow: 0 0 2px cyan;
     box-shadow: 0 0 5px black;
-    color: gold !important;
+    color: cyan !important;
   }
   
   .social-icons {
@@ -332,7 +332,7 @@ html {
   .about-card {
     border: none;
     background-color: transparent !important;
-    color: gold !important;
+    color: cyan !important;
   }
   
   .tech-icons {
@@ -343,7 +343,7 @@ html {
     margin: 15px;
     padding: 10px;
     opacity: 0.93;
-    border: 1.5px solid gold;
+    border: 1.5px solid cyan;
     border-radius: 5px;
     box-shadow: 4px 5px 4px 3px rgba(192, 192, 192, 0.74);
     transition: all 0.4s ease 0s;
@@ -353,7 +353,7 @@ html {
   .tech-icons:hover {
     transform: scale(1.05);
     overflow: hidden;
-    border: 2.2px solid gold;
+    border: 2.2px solid cyan;
   }
   
   @media (max-width: 767px) {
@@ -393,7 +393,7 @@ html {
   
   .project-card-display:hover {
     overflow: hidden;
-    box-shadow: 0 4px 4px 5px gold;
+    box-shadow: 0 4px 4px 5px cyan;
   }
   
   .card-img-top {
@@ -404,12 +404,12 @@ html {
   
   .btn-primary {
     color: black !important;
-    border-color: gold !important;
-    background-color: gold !important;
+    border-color: cyan !important;
+    background-color: cyan !important;
   }
   
   .btn-primary:hover {
-    color: gold !important;
+    color: cyan !important;
     border-color: black !important;
     background-color: black !important;
   }
@@ -494,7 +494,7 @@ html {
     left: -9px;
     top: 0;
     background: #fff;
-    border: 2px solid gold;
+    border: 2px solid cyan;
   } */
   
   /* .fork-btn {
@@ -541,7 +541,7 @@ html {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     font-size: 1.56em;
-    color: gold;
+    color: cyan;
   }
   
   .footer-icons {
@@ -602,10 +602,10 @@ html {
   
   ::-webkit-scrollbar-thumb {
     border-radius: 12px;
-    background: gold;
+    background: cyan;
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    background: gold;
+    background: cyan;
     border-radius: 12px;
   }
