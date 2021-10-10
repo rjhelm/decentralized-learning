@@ -1,0 +1,23 @@
+{
+  "name": "decentralized-learning",
+  "version": "1.0.0",
+  "description": "Web Application for the DLNR Token || Decentralized Learning Web App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjhelm/decentralized-learning.git"
+  },
+  "author": "Ryan Helm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rjhelm/decentralized-learning/issues"
+  },
+  "homepage": "https://github.com/rjhelm/decentralized-learning#readme",
+  "dependencies": {
+    "concurrently": "^6.3.0",
+    "express": "^4.17.1"
+  }
+}
